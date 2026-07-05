@@ -20,12 +20,15 @@ Vibranium Guard acts as an intelligent overlay auditing system. It inspects log 
 - **Revenue Protection:** Safeguards intellectual property and trade secrets from accidental or malicious outbound transmission.
 
 ## 🎨 System Visualization (Media Gallery Cover)
-*(Add Cover Image Here)*
+
+![alt text](./image-1.png)
 
 *Figure 1: The DLP-Flow Management Console, showcasing real-time agent coordination, log ingestion status, and the decision flow of our security guardrails.*
 
 ## 🏗️ Solution Architecture
 DLP-Flow is implemented as a Graph-based Workflow composed of two specialized agents running sequentially: the Classifier Agent and the Auditor Agent.
+
+![alt text](./image-2.png)
 
 ### 1. The Preprocessing and Ingestion Layer
 - **preprocess_index Node:** Normalizes incoming execution requests, extracting the exact integer index.
@@ -94,3 +97,5 @@ To prevent LLM hallucination and ensure deterministic compliance enforcement, th
 - **Log Entry:** peggy@corp.com uploads Confidential files to office365.com (category: Corporate Storage).
 - **Classifier Agent:** Queries the MCP server; check_policy marks Corporate Storage as Corporate Approved/Allowed.
 - **Auditor Agent:** Evaluates the combination. Since Corporate Storage is not a restricted destination, the transaction is marked as ALLOW.
+
+![alt text](./image-3.png)
