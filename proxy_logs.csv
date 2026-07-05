@@ -1,0 +1,15 @@
+timestamp,user,destination_url,app_category,proxy_action,file_type,data_sensitivity
+2026-06-30:10:01,bob@corp.com,dropbox.com,Cloud Storage,ALLOW,.docx,Internal
+2026-06-30:10:05,alice@corp.com,personal-mail.com,Webmail,ALLOW,.zip,Confidential
+2026-06-30:10:10,dev_team@corp.com,github.com,Code Repo,ALLOW,.py,Internal
+2026-06-30:10:15,bob@corp.com,pastebin.com,Text Sharing,ALLOW,.txt,Critical
+2026-06-30:10:20,frank@corp.com,gmail.com,Webmail,ALLOW,.pdf,Internal
+2026-06-30:10:25,grace@corp.com,drive.google.com,Personal Storage,ALLOW,.xlsx,Confidential
+2026-06-30:10:30,heidi@corp.com,box.com,Personal Storage,ALLOW,.zip,Critical
+2026-06-30:10:35,ivan@corp.com,stackoverflow.com,Q&A Site,ALLOW,.html,Internal
+2026-06-30:10:40,judy@corp.com,slack.com,Chat App,ALLOW,.json,Internal
+2026-06-30:10:45,mallory@corp.com,mega.nz,Personal Storage,ALLOW,.exe,Confidential
+2026-06-30:10:50,peggy@corp.com,office365.com,Corporate Storage,ALLOW,.xlsx,Confidential
+2026-06-30:10:55,trent@corp.com,wetransfer.com,Personal Storage,ALLOW,.zip,Internal
+2026-06-30:11:00,walter@corp.com,yahoo.com,Webmail,ALLOW,.txt,Critical
+2026-06-30:11:05,najeeb@corp.com,linkedin.com,Social Media,ALLOW,.png,Internal
